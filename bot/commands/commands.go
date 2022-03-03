@@ -101,5 +101,6 @@ func Status(b *gotgbot.Bot , ext *ext.Context) error {
 			ParseMode: "html",
 		})
 	}
+	return nil
 
 }
