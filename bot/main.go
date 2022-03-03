@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-	b, err := gotgbot.NewBot(5221050210:AAH3VQzKmGG1uylSaYZgJjKAH1GUkaneayA, &gotgbot.BotOpts{
+	b, err := gotgbot.NewBot("5221050210:AAH3VQzKmGG1uylSaYZgJjKAH1GUkaneayA"&gotgbot.BotOpts{
 		Client:      http.Client{},
 		GetTimeout:  gotgbot.DefaultGetTimeout,
 		PostTimeout: gotgbot.DefaultPostTimeout,
